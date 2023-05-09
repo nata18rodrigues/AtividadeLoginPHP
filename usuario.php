@@ -6,7 +6,6 @@
 
 <?php
     include("database/database.php");
-    include(" constants/ constants.php");
     include("layout/topo.php");
     $sql = "SELECT * FROM usuario";
     $result = $con->query($sql);
@@ -43,8 +42,8 @@
                 <td>".$row['senha']."</td>
                 <td>".$row['email']."</td>
                 <td>".$row['chave']."</td>
-                <td><a href='/www/".$url."/alterar_usuario.php?id=".$row['id']."'>  ✏️ </a></td>
-                <td><a  href='/www/".$url."/excluir_usuario.php?id=".$row['id']."'>  🗑️ </a></td>
+                <td><a href='".$url."/alterar_usuario.php?id=".$row['id']."'>  ✏️ </a></td>
+                <td><a  href='".$url."/excluir_usuario.php?id=".$row['id']."'>  🗑️ </a></td>
             </tr>
          " ;   
     }

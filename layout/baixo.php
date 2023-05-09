@@ -9,7 +9,7 @@
             <footer class="sticky-footer bg-white">
                 <div class="container my-auto">
                     <div class="copyright text-center my-auto">
-                        <span>Copyright &copy; Your Website 2020</span>
+                        <span>Copyright &copy; Your Website 2023</span>
                     </div>
                 </div>
             </footer>
@@ -32,29 +32,29 @@
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+                    <h5 class="modal-title" id="exampleModalLabel">Pronto para partir?</h5>
                     <button class="close" type="button" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">×</span>
                     </button>
                 </div>
-                <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+                <div class="modal-body">Selecione "Sair" abaixo se estiver pronto para encerrar sua sessão atual.</div>
                 <div class="modal-footer">
-                    <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
-                    <a class="btn btn-primary" href="login.html">Logout</a>
+                    <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancelar</button>
+                    <a class="btn btn-primary" href="logout.php">Sair</a>
                 </div>
             </div>
         </div>
     </div>
 
-    <?php include("./ constants/ constants.php");  ?>
-    <script src="/www/<?php echo $url; ?>/layout/vendor/jquery/jquery.min.js"></script>
-    <script src="/www/<?php echo $url; ?>/layout/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+   
+    <script src="layout/vendor/jquery/jquery.min.js"></script>
+    <script src="layout/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
     
-    <script src="/www/<?php echo $url; ?>/layout/vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="layout/vendor/jquery-easing/jquery.easing.min.js"></script>
 
     
-    <script src="/www/<?php echo $url; ?>/layout/js/sb-admin-2.min.js"></script>
+    <script src="layout/js/sb-admin-2.min.js"></script>
 
 </body>
 
